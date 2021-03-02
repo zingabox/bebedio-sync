@@ -2,10 +2,10 @@
   "_args": [
     [
       {
-        "raw": "aframe-firebase-component",
+        "raw": "bebedio-sync",
         "scope": null,
-        "escapedName": "aframe-firebase-component",
-        "name": "aframe-firebase-component",
+        "escapedName": "bebedio-sync",
+        "name": "bebedio-sync",
         "rawSpec": "",
         "spec": "latest",
         "type": "tag"
@@ -13,14 +13,14 @@
       "C:\\Users\\jmorales\\Desktop\\bitbucket\\vrquitect2"
     ]
   ],
-  "_from": "aframe-firebase-component@latest",
-  "_id": "aframe-firebase-component@4.0.3",
+  "_from": "bebedio-sync@latest",
+  "_id": "bebedio-sync@4.0.3",
   "_inCache": true,
-  "_location": "/aframe-firebase-component",
+  "_location": "/bebedio-sync",
   "_nodeVersion": "6.9.2",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/aframe-firebase-component-4.0.3.tgz_1498241170314_0.5472456617280841"
+    "tmp": "tmp/bebedio-sync-4.0.3.tgz_1498241170314_0.5472456617280841"
   },
   "_npmUser": {
     "name": "ngokevin",
@@ -29,10 +29,10 @@
   "_npmVersion": "3.10.9",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "aframe-firebase-component",
+    "raw": "bebedio-sync",
     "scope": null,
-    "escapedName": "aframe-firebase-component",
-    "name": "aframe-firebase-component",
+    "escapedName": "bebedio-sync",
+    "name": "bebedio-sync",
     "rawSpec": "",
     "spec": "latest",
     "type": "tag"
@@ -40,10 +40,10 @@
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/aframe-firebase-component/-/aframe-firebase-component-4.0.3.tgz",
+  "_resolved": "https://registry.npmjs.org/bebedio-sync/-/bebedio-sync-4.0.3.tgz",
   "_shasum": "f061403016a8a8c0830030074253ed970f095310",
   "_shrinkwrap": null,
-  "_spec": "aframe-firebase-component",
+  "_spec": "bebedio-sync",
   "_where": "C:\\Users\\jmorales\\Desktop\\bitbucket\\vrquitect2",
   "author": {
     "name": "Kevin Ngo",
@@ -84,7 +84,7 @@
   "directories": {},
   "dist": {
     "shasum": "f061403016a8a8c0830030074253ed970f095310",
-    "tarball": "https://registry.npmjs.org/aframe-firebase-component/-/aframe-firebase-component-4.0.3.tgz"
+    "tarball": "https://registry.npmjs.org/bebedio-sync/-/bebedio-sync-4.0.3.tgz"
   },
   "homepage": "https://github.com/ngokevin/kframe/tree/components/firebase#readme",
   "keywords": [
@@ -103,7 +103,7 @@
       "email": "me@ngokevin.com"
     }
   ],
-  "name": "aframe-firebase-component",
+  "name": "bebedio-sync",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
@@ -113,7 +113,7 @@
   "scripts": {
     "build": "browserify examples/main.js -o examples/build.js",
     "dev": "budo examples/main.js:examples/build.js --port 8000 --live --open",
-    "dist": "webpack index.js dist/aframe-firebase-component.js && webpack -p index.js dist/aframe-firebase-component.min.js",
+    "dist": "webpack index.js dist/bebedio-sync.js && webpack -p index.js dist/bebedio-sync.min.js",
     "postpublish": "npm run dist",
     "test": "karma start ./tests/karma.conf.js"
   },
